@@ -10,6 +10,10 @@ public class Main {
         flute.play();
         drums.play();
 
-
+        playHard();
         }
+
+    public static void playHard() {
+        System.out.println("A percussion instrument is playing very loud.");
+    }
 }
