@@ -23,7 +23,7 @@ public abstract class Instrument {
         this.price = price;
     }
 
-    public abstract void tocar();
+    public abstract void play();
 
     public String toString() {
         return "Instrument called " + this.getName() + " costs: " + this.getPrice() + "€.\n";

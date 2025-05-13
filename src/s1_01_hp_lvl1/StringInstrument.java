@@ -1,13 +1,13 @@
 package s1_01_hp_lvl1;
 
-public class InstrumentCorda extends Instrument {
+public class StringInstrument extends Instrument {
     private String name;
     private float price;
 
-    public InstrumentCorda(String name, float price) {
+    public StringInstrument(String name, float price) {
         super(name, price);
     }
-    public void tocar() {
+    public void play() {
         System.out.println("A string instrument is playing.");
     }
 

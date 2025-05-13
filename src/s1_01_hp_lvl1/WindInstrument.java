@@ -1,13 +1,13 @@
 package s1_01_hp_lvl1;
 
-public class InstrumentVent extends Instrument {
+public class WindInstrument extends Instrument {
     private String name;
     private float price;
 
-    public InstrumentVent(String name, float price) {
+    public WindInstrument(String name, float price) {
         super(name, price);
     }
-    public void tocar() {
+    public void play() {
         System.out.println("A wind instrument is playing.");
     }
 

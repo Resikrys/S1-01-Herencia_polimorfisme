@@ -1,13 +1,13 @@
 package s1_01_hp_lvl1;
 
-public class InstrumentPercussio extends Instrument {
+public class PercussionInstrument extends Instrument {
     private String name;
     private float price;
 
-    public InstrumentPercussio(String name, float price) {
+    public PercussionInstrument(String name, float price) {
         super(name, price);
     }
-    public void tocar() {
+    public void play() {
         System.out.println("A percussion instrument is playing.");
     }
 
