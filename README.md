@@ -18,6 +18,17 @@ Demonstrate that loading can be caused by the creation of the first instance of 
 
 Find information about initialization blocks and static blocks in Java.
 
+### LEVEL 2
+Create a class "Car" with the attributes: make, model, and horsepower. 
+The make must be final static, the model static, and the horsepower final. 
+Demonstrate the difference between the three. Are there any that can be initialized in the class constructor?
+
+Add two methods to the class "Car". A static method called brake() and a non-static method called accelerate(). 
+The accelerate method should output to the console: 
+“The vehicle is accelerating” and the brake() method should output: “The vehicle is braking”.
+
+Demonstrate how to invoke the static and non-static methods from the main() of the main class.
+
 ### TECHNOLOGIES
 | Paquete             | Versión    | Descripción                                       |
 |---------------------|------------|---------------------------------------------------|
@@ -27,5 +38,5 @@ Find information about initialization blocks and static blocks in Java.
 Local environment: `IntelliJ or Eclipse`
 
 ### EXECUTION
-To Run code, press `Ctrl F5` or click the  icon in the gutter.
+To Run code, press `Ctrl F5` ![img.png](img.png) or click the  icon in the gutter.
 
