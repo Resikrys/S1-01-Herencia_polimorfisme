@@ -38,5 +38,5 @@ Demonstrate how to invoke the static and non-static methods from the main() of t
 Local environment: `IntelliJ or Eclipse`
 
 ### EXECUTION
-To Run code, press `Ctrl F5` ![img.png](img.png) or click the  icon in the gutter.
+To Run code, press `Ctrl F5` `play` or click the  icon in the gutter.
 
