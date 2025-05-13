@@ -26,6 +26,6 @@ public abstract class Instrument {
     public abstract void tocar();
 
     public String toString() {
-        return "Instrument named " + this.getName() + " costs: " + this.getPrice() + "€.";
+        return "Instrument called " + this.getName() + " costs: " + this.getPrice() + "€.\n";
     }
 }
