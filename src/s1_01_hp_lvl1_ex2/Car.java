@@ -6,11 +6,11 @@ public class Car {
     // A non-static variable is being initialised each time you construct a new object.
     private static final String BRAND = "Capsule Corp"; //can't be in the constructor - global CONST
     private static String model; //Class variable (common)
-    private final int POWER = 160; //Instance variable
+    private final int POWER; //Instance variable
 
-    public Car(String model, int CV) {
+    public Car(String model, int POWER) {
         Car.model = model;
-        this.power = POWER;
+        this.POWER = POWER;
     }
 
     //Getters
@@ -21,7 +21,7 @@ public class Car {
         return model;
     }
     public int getPower() {
-        return this.power;
+        return this.POWER;
     }
 
     //Setters -> no need in final variables

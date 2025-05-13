@@ -5,14 +5,13 @@ public class Main {
         Car car1 = new Car("Pocket flying car", 100);
 
         System.out.println(car1.getBrand());
-        System.out.println(car1.brand());
         System.out.println(car1.getModel());
         System.out.println(car1.getPower());
 
-        car1.carAccelerate();
-        carBrake();
+        car1.carAccelerate(); //No static method
+        Car.carBrake(); //Static method
 
-        car1.toString();
+        System.out.println(car1.toString());
 
     }
 }
