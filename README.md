@@ -29,6 +29,22 @@ The accelerate method should output to the console:
 
 Demonstrate how to invoke the static and non-static methods from the main() of the main class.
 
+### LEVEL 2 - EXERCISE 1
+Create a class called "Phone" with the attributes brand and model, and the method call(). 
+This method must receive a String with a phone number. 
+The method must display a message on the console saying that the number received as a parameter is being called.
+
+Create an interface called "Camera" with the method photograph(), 
+and another interface called Clock with the method alarm().
+
+Create a class called "Smartphone" that is a subclass of "Phone" and 
+that at the same time implements the interfaces "Camera" and "Clock".
+
+The method photograph() must display on the console: 
+“A photo is being taken” and the method alarm() must display: “The alarm is ringing”.
+
+From the main() of the application, create a Smartphone object and call the previous methods.
+
 ### TECHNOLOGIES
 | Package | Version    | Description                |
 |---------|------------|----------------------------|
