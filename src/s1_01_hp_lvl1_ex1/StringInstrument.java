@@ -1,4 +1,4 @@
-package s1_01_hp_lvl1;
+package s1_01_hp_lvl1_ex1;
 
 public class StringInstrument extends Instrument {
     private String name;
