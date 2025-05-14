@@ -4,11 +4,15 @@ public class PercussionInstrument extends Instrument {
     private String name;
     private float price;
 
+
     public PercussionInstrument(String name, float price) {
         super(name, price);
     }
     public void play() {
         System.out.println("A percussion instrument is playing.");
+    }
+    public static void playHard() {
+        System.out.println("A percussion instrument is playing very loud.");
     }
 
     @Override
