@@ -28,11 +28,11 @@ public class Car {
     //setModel will change the value in every Car object instance
 
     //accelerate and brake
-    public void carAccelerate() {
+    public void accelerate() {
         System.out.println("Pushed accelerate pedal.");
     }
 
-    public static void carBrake() {
+    public static void brake() {
         System.out.println("Pushed brake pedal.");
     }
 

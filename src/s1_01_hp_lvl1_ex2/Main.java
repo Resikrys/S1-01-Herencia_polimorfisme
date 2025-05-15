@@ -8,8 +8,8 @@ public class Main {
         System.out.println(car1.getModel());
         System.out.println(car1.getPower());
 
-        car1.carAccelerate(); //No static method
-        Car.carBrake(); //Static method
+        car1.accelerate(); //No static method
+        Car.brake(); //Static method
 
         System.out.println(car1.toString());
 
