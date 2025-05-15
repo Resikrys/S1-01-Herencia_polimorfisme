@@ -12,12 +12,15 @@ public class Telephone {
     public String getBrand() {
         return this.brand;
     }
+
     public String getModel() {
         return this.model;
     }
+
     public void setBrand(String brand) {
         this.brand = brand;
     }
+
     public void setModel(String model) {
         this.model = model;
     }
