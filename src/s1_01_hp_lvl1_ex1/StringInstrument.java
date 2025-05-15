@@ -1,17 +1,19 @@
 package s1_01_hp_lvl1_ex1;
 
 public class StringInstrument extends Instrument {
-    private String name;
-    private float price;
     private static int num;
 
     public StringInstrument(String name, float price) {
         super(name, price);
         num++;
     }
+
+    @Override
     public void play() {
         System.out.println("A string instrument is playing.");
     }
+
+    //Static block method
     public static int countStringInstruments() {
         return num;
     }
